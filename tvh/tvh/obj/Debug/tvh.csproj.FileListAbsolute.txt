@@ -1,0 +1,7 @@
+D:\Projects\test\tvh\tvh\bin\Debug\tvh.exe.config
+D:\Projects\test\tvh\tvh\bin\Debug\tvh.exe
+D:\Projects\test\tvh\tvh\bin\Debug\tvh.pdb
+D:\Projects\test\tvh\tvh\obj\Debug\tvh.csprojResolveAssemblyReference.cache
+D:\Projects\test\tvh\tvh\obj\Debug\tvh.csproj.CoreCompileInputs.cache
+D:\Projects\test\tvh\tvh\obj\Debug\tvh.exe
+D:\Projects\test\tvh\tvh\obj\Debug\tvh.pdb

@@ -13,5 +13,10 @@ namespace tvh
             Console.WriteLine("Press enter to exit");
             Console.ReadLine();
         }
+
+        static string Table(string schijfs, string steps)
+        {
+            return string.Format("{0, 20}{1}", schijfs, steps);
+        }
     }
 }
