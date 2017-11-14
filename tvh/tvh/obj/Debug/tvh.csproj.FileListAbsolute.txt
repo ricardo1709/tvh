@@ -5,3 +5,10 @@ D:\Projects\test\tvh\tvh\obj\Debug\tvh.csprojResolveAssemblyReference.cache
 D:\Projects\test\tvh\tvh\obj\Debug\tvh.csproj.CoreCompileInputs.cache
 D:\Projects\test\tvh\tvh\obj\Debug\tvh.exe
 D:\Projects\test\tvh\tvh\obj\Debug\tvh.pdb
+C:\Users\MaKe station\OneDrive\Radius\leerjaar 1\Periode_2\Project\towers of hanoi\tvh\tvh\tvh\obj\Debug\tvh.csprojResolveAssemblyReference.cache
+C:\Users\MaKe station\OneDrive\Radius\leerjaar 1\Periode_2\Project\towers of hanoi\tvh\tvh\tvh\obj\Debug\tvh.csproj.CoreCompileInputs.cache
+C:\Users\MaKe station\OneDrive\Radius\leerjaar 1\Periode_2\Project\towers of hanoi\tvh\tvh\tvh\obj\Debug\tvh.exe
+C:\Users\MaKe station\OneDrive\Radius\leerjaar 1\Periode_2\Project\towers of hanoi\tvh\tvh\tvh\obj\Debug\tvh.pdb
+C:\Users\MaKe station\OneDrive\Radius\leerjaar 1\Periode_2\Project\towers of hanoi\tvh\tvh\tvh\bin\Debug\tvh.exe.config
+C:\Users\MaKe station\OneDrive\Radius\leerjaar 1\Periode_2\Project\towers of hanoi\tvh\tvh\tvh\bin\Debug\tvh.exe
+C:\Users\MaKe station\OneDrive\Radius\leerjaar 1\Periode_2\Project\towers of hanoi\tvh\tvh\tvh\bin\Debug\tvh.pdb
