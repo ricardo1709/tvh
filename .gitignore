@@ -1,4 +1,4 @@
-tvh/.vs/*
-tvh/tvh/bin/*
+tvh/.vs/
+tvh/tvh/bin/
 
-tvh/tvh/obj/*
+tvh/tvh/obj/
