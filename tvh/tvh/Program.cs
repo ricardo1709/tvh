@@ -13,18 +13,16 @@ namespace tvh
             int schijfs;
             string input;
             ulong steps = 1;
-            int amount = 0;
-
-            do
-            {
+            int amount = 1;
+            do {
                 Console.WriteLine("Voer het nummer van het aantal schijven in, waarvan je het minimale aantal zetten wilt weten");
                 input = Console.ReadLine();
-
                 if (int.TryParse(input, out schijfs))
                 {
                     for (; amount < schijfs; amount += 1)
                     {
                         steps *= 2;
+                        Write(schijfs, steps -1);
                     }
                 }
                 else
@@ -39,5 +37,10 @@ namespace tvh
             Console.WriteLine("Press enter to exit");
             Console.ReadLine();
         }
+
+        static public void Write(int schijf, ulong steps)
+        {
+            Console.WriteLine("{0, 2}{1, 20}",schijf, steps);
+        } 
     }
 }
