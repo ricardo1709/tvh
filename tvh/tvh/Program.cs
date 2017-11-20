@@ -12,19 +12,31 @@ namespace tvh
         {
             int schijfs;
             string input;
-            int steps = 1;
+            ulong steps = 1;
             int amount = 1;
-            do {
+
+            do
+            {
                 Console.WriteLine("Voer het nummer van het aantal schijven in, waarvan je het minimale aantal zetten wilt weten");
                 input = Console.ReadLine();
+
+
+                if (int.TryParse(input, out schijfs))
+                {
+                    for (amount = schijfs; amount > 0; amount -= 1)
+                    {
+                        steps *= 2;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Je hebt geen nummer ingevoerd, probeer het opnieuw.");
+                    continue;
+                }
+
             } while (!int.TryParse(input, out schijfs));
 
-            for( amount = schijfs; amount > 0; amount -=1)
-            {
-                steps *= 2;
-            }
-
-            Console.WriteLine("Het minimale aantal stappen voor is: {0}", steps-1);
+            Console.WriteLine("Het minimale aantal stappen voor {0} schijven is: {1}", input, steps - 1);
             Console.WriteLine("Press enter to exit");
             Console.ReadLine();
         }
