@@ -22,7 +22,7 @@ namespace tvh
                     for (; amount < schijfs; amount += 1)
                     {
                         steps *= 2;
-                        Write(schijfs, steps -1);
+                        Write(amount, steps -1);
                     }
                 }
                 else

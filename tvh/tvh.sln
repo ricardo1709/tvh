@@ -5,7 +5,11 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tvh", "tvh\tvh.csproj", "{B8E47B12-87DD-4F75-B04D-4BD61042EAD0}"
 EndProject
+
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursive", "Recursive\Recursive.csproj", "{322167C3-0EA3-4055-8211-B0477543EAF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{0962D0BC-5CC3-4224-AA76-9CD6661BAD43}"
+
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,17 @@ Global
 		{B8E47B12-87DD-4F75-B04D-4BD61042EAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8E47B12-87DD-4F75-B04D-4BD61042EAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8E47B12-87DD-4F75-B04D-4BD61042EAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+
 		{322167C3-0EA3-4055-8211-B0477543EAF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{322167C3-0EA3-4055-8211-B0477543EAF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{322167C3-0EA3-4055-8211-B0477543EAF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{322167C3-0EA3-4055-8211-B0477543EAF0}.Release|Any CPU.Build.0 = Release|Any CPU
+
+		{0962D0BC-5CC3-4224-AA76-9CD6661BAD43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0962D0BC-5CC3-4224-AA76-9CD6661BAD43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0962D0BC-5CC3-4224-AA76-9CD6661BAD43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0962D0BC-5CC3-4224-AA76-9CD6661BAD43}.Release|Any CPU.Build.0 = Release|Any CPU
+
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
