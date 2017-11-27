@@ -199,7 +199,7 @@ namespace Recursive
 
         public override string ToString()
         {
-            return string.Format("{0} mill {1, 6} years {2, 3} days {3, 2}:{4, 2}:{5, 2}", mill, year, day, string.Format("{0:00}", hour), string.Format("{0:00}", min), string.Format("{0:00}", sec));
+            return string.Format("{0} millenia {1, 6} years {2, 3} days {3, 2}:{4, 2}:{5, 2}", mill, year, day, string.Format("{0:00}", hour), string.Format("{0:00}", min), string.Format("{0:00}", sec));
         }
     }
 }
