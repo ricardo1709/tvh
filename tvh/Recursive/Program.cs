@@ -24,7 +24,7 @@ namespace Recursive
                         steps *= 2;
                         Write(schijfs, steps -1);
                     }*/
-                    steps=Recursive(amount, schijfs, steps);
+                    steps=Recursive(amount, schijfs, steps, new Time(1));
                 }
                 else
                 {
@@ -39,17 +39,20 @@ namespace Recursive
             Console.ReadLine();
         }
 
-        static public void Write(int schijf, ulong steps)
+        static public void Write(int schijf, ulong steps, Time time)
         {
-            Console.WriteLine("{0, 2}{1, 20}", schijf, steps);
+            Console.WriteLine("{0, 3}{1, 26}{2, 70}", schijf, steps, time);
         }
-        static public ulong Recursive(int amount, int schijf, ulong steps)
+        static public ulong Recursive(int amount, int schijf, ulong steps, Time time)
         {
             if (amount > schijf)
                 return steps;
+            time = time * 2;
+            Time tempTime = (time - 1) * 2;
+            
             steps *= 2;
-            Write(amount, steps - 1);
-            return Recursive(++amount, schijf, steps);
+            Write(amount, steps - 1, tempTime);
+            return Recursive(++amount, schijf, steps, time);
         }
     }
 }
