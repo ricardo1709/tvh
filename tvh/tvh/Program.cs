@@ -19,7 +19,7 @@ namespace tvh
                 input = Console.ReadLine();
                 if (int.TryParse(input, out schijfs))
                 {
-                    for (; amount < schijfs; amount += 1)
+                    for (; amount <= schijfs; amount += 1)
                     {
                         steps *= 2;
                         Write(schijfs, steps -1);
@@ -27,7 +27,7 @@ namespace tvh
                 }
                 else
                 {
-                    Console.WriteLine("Je hebt geen nummer ingevoerd, probeer het opnieuw.");
+                    Console.WriteLine("Je hebt geen nummer ingevoerd tussen de 0 en 65 of je hebt überhaupt geen nummer ingevoerd, probeer het opnieuw.");
                     continue;
                 }
 
