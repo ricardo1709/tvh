@@ -15,8 +15,6 @@ namespace ConsoleApp1
             ulong steps;
             int amount = 2;
             
-
-            
             do
             {
                 Console.WriteLine("Voer het nummer van het aantal schijven in, waarvan je het minimale aantal zetten wilt weten.");
@@ -51,16 +49,6 @@ namespace ConsoleApp1
                 }
             } while (Console.ReadKey(true).Key != ConsoleKey.Spacebar); ;
         }
-
-        static public void Time()
-        {
-
-        }
-
-
-
-
-
     }
 }
 

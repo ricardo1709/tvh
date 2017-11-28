@@ -14,7 +14,6 @@ namespace tvh
             string input;
             ulong steps = 1;
             int amount = 1;
-
             do {
                 Console.WriteLine("Voer het nummer van het aantal schijven in, waarvan je het minimale aantal zetten wilt weten");
                 input = Console.ReadLine();
@@ -33,7 +32,6 @@ namespace tvh
                 }
 
             } while (!int.TryParse(input, out schijfs));
-
 
             Console.WriteLine("Het minimale aantal stappen voor {0} schijven is: {1}", input, steps - 1);
 
