@@ -197,6 +197,19 @@ namespace Recursive
             return time;
         }
 
+        private ulong GetTime()
+        {
+            return (ulong)(sec + min * 60 + hour * 3600 + day * (3600 * 24));
+        }
+
+        public static Time Pow(int bas, int pow)
+        {
+            Time temp = new Time((ulong)bas);
+            for (int i = 0; i < pow; i++)
+                temp = temp * bas;
+            return temp;
+        }
+
         public override string ToString()
         {
             return string.Format("{0} mill {1, 6} years {2, 3} days {3, 2}:{4, 2}:{5, 2}", mill, year, day, string.Format("{0:00}", hour), string.Format("{0:00}", min), string.Format("{0:00}", sec));
