@@ -1,0 +1,7 @@
+C:\Users\roy_2\OneDrive\Radius\Leerjaar 1\Periode 2\Project\TVH\tvh\Recursive\bin\Debug\Recursive.exe.config
+C:\Users\roy_2\OneDrive\Radius\Leerjaar 1\Periode 2\Project\TVH\tvh\Recursive\bin\Debug\Recursive.exe
+C:\Users\roy_2\OneDrive\Radius\Leerjaar 1\Periode 2\Project\TVH\tvh\Recursive\bin\Debug\Recursive.pdb
+C:\Users\roy_2\OneDrive\Radius\Leerjaar 1\Periode 2\Project\TVH\tvh\Recursive\obj\Debug\Recursive.csproj.CoreCompileInputs.cache
+C:\Users\roy_2\OneDrive\Radius\Leerjaar 1\Periode 2\Project\TVH\tvh\Recursive\obj\Debug\Recursive.exe
+C:\Users\roy_2\OneDrive\Radius\Leerjaar 1\Periode 2\Project\TVH\tvh\Recursive\obj\Debug\Recursive.pdb
+C:\Users\roy_2\OneDrive\Radius\Leerjaar 1\Periode 2\Project\TVH\tvh\Recursive\obj\Debug\Recursive.csprojResolveAssemblyReference.cache

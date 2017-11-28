@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace tvh
+namespace Recursive
 {
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
             int schijfs;
             string input;
             ulong steps = 1;
@@ -19,15 +19,16 @@ namespace tvh
                 input = Console.ReadLine();
                 if (int.TryParse(input, out schijfs))
                 {
-                    for (; amount <= schijfs; amount += 1)
+                    /*for (; amount<schijfs; amount += 1)
                     {
                         steps *= 2;
-                        Write(amount, steps -1);
-                    }
+                        Write(schijfs, steps -1);
+                    }*/
+                    steps=Recursive(amount, schijfs, steps, new Time(1));
                 }
                 else
                 {
-                    Console.WriteLine("Je hebt geen nummer ingevoerd tussen de 0 en 65 of je hebt überhaupt geen nummer ingevoerd, probeer het opnieuw.");
+                    Console.WriteLine("Je hebt geen nummer ingevoerd, probeer het opnieuw.");
                     continue;
                 }
 
@@ -38,9 +39,20 @@ namespace tvh
             Console.ReadLine();
         }
 
-        static public void Write(int schijf, ulong steps)
+        static public void Write(int schijf, ulong steps, Time time)
         {
-            Console.WriteLine("{0, 2}{1, 20}",schijf, steps);
-        } 
+            Console.WriteLine("{0, 3}{1, 26}{2, 70}", schijf, steps, time);
+        }
+        static public ulong Recursive(int amount, int schijf, ulong steps, Time time)
+        {
+            if (amount > schijf)
+                return steps;
+            time = time * 2;
+            Time tempTime = (time - 1) * 2;
+            
+            steps *= 2;
+            Write(amount, steps - 1, tempTime);
+            return Recursive(++amount, schijf, steps, time);
+        }
     }
 }
